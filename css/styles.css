@@ -1,0 +1,139 @@
+body {
+    margin: auto;
+    padding: 0;
+    width: 1440px;
+}
+
+header {
+    background-color: #fff;
+    border: 1px solid blue;
+    display: block;
+    position: relative;
+    text-align: center;
+    height: 72px;
+    overflow: hidden;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.header-logo {
+    font-size: 18px;
+}
+
+.menu-nav-bar {
+    display: inline-block;
+}
+
+.menu-section-list {
+    display: block;
+    list-style-type: none;
+}
+
+.menu-section-list li {
+    display: inline-block;
+}
+
+.menu-section {
+    font-size: 16px;
+}
+
+.contact-info {
+    display: block;
+}
+
+.email-info, .phone-info {
+    display: inline-block;
+}
+
+.section-first {
+    height: 600px;
+    text-align: center;
+    background-color: #2e2f42;
+    color: #fff;
+}
+
+.section-first div {
+    position: relative;
+    width: 496px;
+    height: 224px;
+    transform: translate(95%, 75%);
+    overflow: hidden;
+}
+
+.main-text {
+    font-size: 56px;
+    margin: unset;
+}
+
+.order-button {
+    background-color: #4d5ae5;
+    color: #fff;
+    font-size: 16px;
+    width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    margin-top: 48px;
+    border: none;
+}
+
+.section-second {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+.section-second-list {
+    display: block;
+    list-style: none;
+    position: relative;
+    width: 1150px;
+    height: 104px;
+    transform: translate(11%, 100%);
+}
+
+.section-second-header {
+    position: absolute;
+    bottom: 75px;
+}
+
+.feature {
+    display: inline-block;
+    width: 264px;
+}
+
+.feature-blank {
+    margin-right: 24px;
+}
+
+.section-third {
+    background-color: #f4f4fd;
+    height: 732px;
+    text-align: center;
+}
+
+.section-third-list {
+    position: relative;
+    top: 28%;
+}
+
+.person-profile {
+    display: inline-block;
+    background-color: #fff;
+    width: 264px;
+    height: 380px;
+    border-radius: 0 0 4px 4px;
+    text-align: center;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.section-third h2 {
+    color: #2e2f42;
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    top: 20%;
+}
+
+
