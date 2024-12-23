@@ -74,12 +74,13 @@ p {
     color: #2e2f42;
 }
 
-.menu-section a:hover {
+.menu-section a:hover,
+.menu-section a:focus {
     color: #404bbf;
 }
 
 .contact-info {
-    display: block;
+    display: inline-block;
     margin-left: 140px;
     font-weight: 400;
     font-size: 16px;
