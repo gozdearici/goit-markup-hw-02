@@ -99,18 +99,15 @@ p {
     display: inline-block;
 }
 
-.email-info,
-.phone-info {
+.info {
     display: inline-block;
     margin-right: 36px;
     text-decoration: none;
     color: #434455;
 }
 
-.email-info:hover,
-.phone-info:hover,
-.email-info:active,
-.phone-info:active {
+.info:hover,
+.info:focus {
     color: #404bbf;
 }
 
