@@ -49,7 +49,7 @@ p {
     color: #2e2f42;
 }
 
-.header-logo .logo-first {
+.logo-first {
     color: #4d5ae5;
 }
 
@@ -312,8 +312,4 @@ p {
 .footer-text,
 .footer .logo-second {
     color: #f4f4fd;
-}
-
-.footer .logo-first {
-    color: #4d5ae5;
 }
