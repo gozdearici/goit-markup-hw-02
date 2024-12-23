@@ -48,7 +48,8 @@ p {
 }
 
 .menu-nav-bar {
-    display: block;
+    display: inline-block;
+    margin-top: 10px;
 }
 
 .menu-section-list {
