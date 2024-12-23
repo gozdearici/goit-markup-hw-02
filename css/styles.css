@@ -118,8 +118,8 @@ p {
 }
 
 .section-first div {
-    width: 496px;
-    height: 224px;
+    max-width: 496px;
+    max-height: 224px;
     padding: 188px 472px;
 }
 
@@ -130,14 +130,14 @@ p {
     letter-spacing: 0.02em;
     margin: unset;
     color: #fff;
-    width: 496px;
+    max-width: 496px;
     transform: translate(446px, 175px);
 }
 
 .order-button {
     background-color: #4d5ae5;
     color: #fff;
-    width: 169px;
+    max-width: 169px;
     height: 56px;
     border-radius: 4px;
     margin-top: 48px;
@@ -164,7 +164,7 @@ p {
 .section-second-list {
     display: block;
     list-style: none;
-    width: 1150px;
+    max-width: 1150px;
     height: 104px;
     margin: 160px 126px;
 }
@@ -187,7 +187,7 @@ p {
 
 .feature {
     display: inline-block;
-    width: 264px;
+    max-width: 264px;
 }
 
 .feature-blank {
@@ -203,7 +203,7 @@ p {
 .person-profile {
     display: inline-block;
     background-color: #fff;
-    width: 264px;
+    max-width: 264px;
     height: 380px;
     border-radius: 0 0 4px 4px;
     text-align: center;
@@ -288,7 +288,7 @@ p {
     background-color: #2e2f42;
     height: 52px;
     margin-top: 82px;
-    width: 1160px;
+    max-width: 1160px;
     padding: 130px 140px;
 }
 
@@ -310,7 +310,7 @@ p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     transform: translate(-3px, 1px);
-    width: 264px;
+    max-width: 264px;
     color: #f4f4fd;
 }
 
