@@ -2,9 +2,23 @@ body {
     margin: auto;
     padding: 0;
     width: 1440px;
+    height: auto;
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
+    position: relative;
+    left: auto;
+    top: auto;
+    box-sizing:inherit;
+    order: inherit;
+    display: block;
+    align-items: center;
+    flex-direction: column;
+    gap: 0; 
+    border-radius: 3px;
+    box-shadow: 0px 0px 0px 0px;
+    flex-grow: inherit;
+    border-bottom:#fff;
 }
 
 header {
@@ -208,14 +222,14 @@ p {
     cursor: pointer;
 }
 
-.person-profile h3 {
+.person-profile-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
-.person-profile p {
+.person-profile-title {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
