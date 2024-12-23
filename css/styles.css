@@ -45,12 +45,7 @@ p {
     text-transform: uppercase;
 }
 
-.header-logo,
-.header-logo .logo-second {
-    color: #2e2f42;
-}
-
-.logo-first {
+.header-logo {
     color: #4d5ae5;
 }
 
@@ -299,6 +294,7 @@ p {
     letter-spacing: 0.03em;
     line-height: 1.17;
     text-transform: uppercase;
+    color: #4d5ae5
 }
 
 .footer-text {
@@ -308,9 +304,9 @@ p {
     letter-spacing: 0.02em;
     transform: translate(-3px, 1px);
     width: 264px;
+    color: #f4f4fd;
 }
 
-.footer-text,
-.footer .logo-second {
-    color: #f4f4fd;
+.footer-logo {
+    color: #4d5ae5;
 }
