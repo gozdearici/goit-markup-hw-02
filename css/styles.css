@@ -25,16 +25,21 @@ p {
 .menu-right,
 .menu-left {
     display: inline-block;
-    padding: 10px 130px;
+    margin: 8px 120px;
+}
+
+.nav-header-logo {
+    display: inline-block;
 }
 
 .header-logo {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.03em;
     line-height: 1.17;
-    padding-right: 40px;
+    margin-right: 40px;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -46,8 +51,6 @@ p {
 
 .header-logo .logo-first {
     color: #4d5ae5;
-    position: relative;
-    right: -4px;
 }
 
 .menu-nav-bar {
@@ -69,7 +72,7 @@ p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-right: 40px;
+    margin-right: 40px;
 }
 
 .menu-section a {
@@ -83,21 +86,24 @@ p {
 
 .contact-info {
     display: block;
-}
-
-.email-info,
-.phone-info {
-    display: inline-block;
-    padding-right: 36px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
+    cursor: pointer;
+}
+
+.email-info,
+.phone-info {
+    display: inline-block;
+    margin-right: 36px;
 }
 
 .email-info:hover,
-.phone-info:hover {
+.phone-info:hover,
+.email-info:active,
+.phone-info:active {
     color: #404bbf;
 }
 
@@ -144,7 +150,6 @@ p {
 
 .section-second {
     height: 300px;
-    margin-bottom: 80px;
     margin-top: 40px;
 }
 
@@ -153,7 +158,7 @@ p {
     list-style: none;
     width: 1150px;
     height: 104px;
-    padding: 100px 144px;
+    margin: 160px 126px;
 }
 
 .section-second-header {
@@ -187,10 +192,6 @@ p {
     text-align: center;
 }
 
-.section-third-list {
-    position: relative;
-}
-
 .person-profile {
     display: inline-block;
     background-color: #fff;
@@ -217,21 +218,21 @@ p {
     letter-spacing: 0.02em;
 }
 
-.section-third h2,
-.section-fourth h2 {
-    position: relative;
+.section-third .section-third-header,
+.section-fourth .section-fourth-header {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
-.section-third h2 {
+.section-third .section-third-header {
     padding-top: 120px;
     padding-bottom: 54px;
 }
 
-.section-fourth h2 {
+.section-fourth .section-fourth-header {
     margin-bottom: 72px;
 }
 
@@ -315,6 +316,4 @@ p {
 
 .footer .logo-first {
     color: #4d5ae5;
-    position: relative;
-    right: -4px;
 }
