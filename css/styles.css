@@ -61,7 +61,7 @@ p {
     display: inline-block;
 }
 
-.menu-section {
+.menu-section .sub-section{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -69,13 +69,13 @@ p {
     margin-right: 40px;
 }
 
-.menu-section a {
+.menu-section .sub-section {
     text-decoration: none;
     color: #2e2f42;
 }
 
-.menu-section a:hover,
-.menu-section a:focus {
+.menu-section .sub-section:hover,
+.menu-section .sub-section:focus {
     color: #404bbf;
 }
 
@@ -90,10 +90,20 @@ p {
     cursor: pointer;
 }
 
+.contact-info-list {
+    display: block;
+}
+
+.info-list {
+    display: inline-block;
+}
+
 .email-info,
 .phone-info {
     display: inline-block;
     margin-right: 36px;
+    text-decoration: none;
+    color: #434455;
 }
 
 .email-info:hover,
