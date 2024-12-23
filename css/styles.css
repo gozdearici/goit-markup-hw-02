@@ -126,6 +126,8 @@ p {
     letter-spacing: 0.02em;
     margin: unset;
     color: #fff;
+    width: 496px;
+    transform: translate(446px, 175px);
 }
 
 .order-button {
@@ -142,9 +144,11 @@ p {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    transform: translate(-12px, 175px);
 }
 
-.order-button:hover {
+.order-button:hover,
+.order-button:focus {
     background-color: #404bbf;
 }
 
@@ -183,7 +187,7 @@ p {
 }
 
 .feature-blank {
-    margin-right: 24px;
+    margin-right: 20px;
 }
 
 .section-third {
@@ -251,9 +255,6 @@ p {
 
 .portfolio-subtitle {
     display: inline-block;
-}
-
-.card-content {
     border: 1px solid #e7e9fc;
     border-top: unset;
     text-align: left;
@@ -261,18 +262,18 @@ p {
     cursor: pointer;
 }
 
-.card-content:active {
+.portfolio-subtitle:active {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.card-content h3 {
+.portfolio-subtitle h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
-.card-content p {
+.portfolio-subtitle p {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -281,15 +282,11 @@ p {
 
 .footer {
     background-color: #2e2f42;
-    height: 312px;
+    height: 52px;
     margin-top: 82px;
     position: absolute;
-    width: 1440px;
-}
-
-.footer-inside {
-    width: 264px;
-    padding: 112px 156px;
+    width: 1160px;
+    padding: 130px 140px;
 }
 
 .footer-logo {
@@ -300,6 +297,7 @@ p {
     font-size: 18px;
     letter-spacing: 0.03em;
     line-height: 1.17;
+    text-transform: uppercase;
 }
 
 .footer-text {
@@ -307,6 +305,8 @@ p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    transform: translate(-3px, 1px);
+    width: 264px;
 }
 
 .footer-text,
