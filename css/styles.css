@@ -2,6 +2,8 @@ body {
     margin: auto;
     padding: 0;
     width: 1440px;
+    font-family: "Roboto", serif;
+    color: #2e2f42;
 }
 
 header {
@@ -12,6 +14,14 @@ header {
     overflow: hidden;
 }
 
+h2, h3 {
+    color: #2e2f42;
+}
+
+p {
+    color: #434455;
+}
+
 .menu-right,
 .menu-left {
     display: inline-block;
@@ -19,7 +29,7 @@ header {
 }
 
 .header-logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.03em;
@@ -35,9 +45,9 @@ header {
 }
 
 .header-logo .logo-first {
-   color: #4d5ae5;
-   position: relative;
-   right: -4px;
+    color: #4d5ae5;
+    position: relative;
+    right: -4px;
 }
 
 .menu-nav-bar {
@@ -55,7 +65,6 @@ header {
 }
 
 .menu-section {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -68,20 +77,28 @@ header {
     color: #2e2f42;
 }
 
+.menu-section a:hover {
+    color: #404bbf;
+}
+
 .contact-info {
     display: block;
 }
 
-.email-info, .phone-info {
+.email-info,
+.phone-info {
     display: inline-block;
     padding-right: 36px;
-    color: #434455;
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
+}
+
+.email-info:hover,
+.phone-info:hover {
+    color: #404bbf;
 }
 
 .section-first {
@@ -97,7 +114,6 @@ header {
 }
 
 .main-text {
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -114,11 +130,15 @@ header {
     border-radius: 4px;
     margin-top: 48px;
     border: none;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.order-button:hover {
+    background-color: #404bbf;
 }
 
 .section-second {
@@ -137,9 +157,7 @@ header {
 
 .section-second-header {
     bottom: 75px;
-    color: #2e2f42;
     margin-bottom: 10px;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -147,8 +165,6 @@ header {
 }
 
 .section-second-text {
-    color: #434455;
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -181,12 +197,12 @@ header {
     height: 380px;
     border-radius: 0 0 4px 4px;
     text-align: center;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+        0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    cursor: pointer;
 }
 
 .person-information h3 {
-    color: #2e2f42;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -194,19 +210,15 @@ header {
 }
 
 .person-information p {
-    color: #434455;
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.section-third h2, 
+.section-third h2,
 .section-fourth h2 {
-    color: #2e2f42;
     position: relative;
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -244,11 +256,14 @@ header {
     border-top: unset;
     text-align: left;
     padding: 14px 16px;
+    cursor: pointer;
+}
+
+.card-content:active {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .card-content h3 {
-    color: #2e2f42;
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -256,8 +271,6 @@ header {
 }
 
 .card-content p {
-    color: #434455;
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -280,7 +293,7 @@ header {
 .footer-logo {
     text-decoration: none;
     margin-left: -4px;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.03em;
@@ -288,7 +301,6 @@ header {
 }
 
 .footer-text {
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -301,7 +313,7 @@ header {
 }
 
 .footer .logo-first {
-   color: #4d5ae5;
-   position: relative;
-   right: -4px;
+    color: #4d5ae5;
+    position: relative;
+    right: -4px;
 }
