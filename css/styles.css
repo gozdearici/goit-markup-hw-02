@@ -6,20 +6,38 @@ body {
 
 header {
     background-color: #fff;
-    border: 1px solid blue;
     display: block;
-    position: relative;
     text-align: center;
     height: 72px;
     overflow: hidden;
 }
 
-.menu {
+.menu-right,
+.menu-left {
     display: inline-block;
+    padding: 10px 130px;
 }
 
 .header-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    padding-right: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-logo,
+.header-logo .logo-second {
+    color: #2e2f42;
+}
+
+.header-logo .logo-first {
+   color: #4d5ae5;
+   position: relative;
+   right: -4px;
 }
 
 .menu-nav-bar {
@@ -29,6 +47,7 @@ header {
 .menu-section-list {
     display: block;
     list-style-type: none;
+    text-decoration: none;
 }
 
 .menu-section-list li {
@@ -36,7 +55,17 @@ header {
 }
 
 .menu-section {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-right: 40px;
+}
+
+.menu-section a {
+    text-decoration: none;
+    color: #2e2f42;
 }
 
 .contact-info {
@@ -45,57 +74,85 @@ header {
 
 .email-info, .phone-info {
     display: inline-block;
+    padding-right: 36px;
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
 }
 
 .section-first {
     height: 600px;
     text-align: center;
     background-color: #2e2f42;
-    color: #fff;
 }
 
 .section-first div {
-    position: relative;
     width: 496px;
     height: 224px;
-    transform: translate(95%, 75%);
-    overflow: hidden;
+    padding: 188px 472px;
 }
 
 .main-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
     font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     margin: unset;
+    color: #fff;
 }
 
 .order-button {
     background-color: #4d5ae5;
     color: #fff;
-    font-size: 16px;
     width: 169px;
     height: 56px;
     border-radius: 4px;
     margin-top: 48px;
     border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .section-second {
-    position: relative;
     height: 300px;
-    overflow: hidden;
+    margin-bottom: 80px;
+    margin-top: 40px;
 }
 
 .section-second-list {
     display: block;
     list-style: none;
-    position: relative;
     width: 1150px;
     height: 104px;
-    transform: translate(11%, 100%);
+    padding: 100px 144px;
 }
 
 .section-second-header {
-    position: absolute;
     bottom: 75px;
+    color: #2e2f42;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-second-text {
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .feature {
@@ -115,7 +172,6 @@ header {
 
 .section-third-list {
     position: relative;
-    top: 28%;
 }
 
 .person-profile {
@@ -128,12 +184,124 @@ header {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.section-third h2 {
+.person-information h3 {
     color: #2e2f42;
-    font-size: 36px;
-    font-weight: 700;
-    position: relative;
-    top: 20%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
+.person-information p {
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
+.section-third h2, 
+.section-fourth h2 {
+    color: #2e2f42;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+.section-third h2 {
+    padding-top: 120px;
+    padding-bottom: 54px;
+}
+
+.section-fourth h2 {
+    margin-bottom: 72px;
+}
+
+.section-fourth {
+    text-align: center;
+    height: 1000px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.section-fourth-list {
+    display: block;
+    list-style: none;
+    margin-bottom: 48px;
+}
+
+.portfolio-subtitle {
+    display: inline-block;
+}
+
+.card-content {
+    border: 1px solid #e7e9fc;
+    border-top: unset;
+    text-align: left;
+    padding: 14px 16px;
+}
+
+.card-content h3 {
+    color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.card-content p {
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.footer {
+    background-color: #2e2f42;
+    height: 312px;
+    margin-top: 82px;
+    position: absolute;
+    width: 1440px;
+}
+
+.footer-inside {
+    width: 264px;
+    padding: 112px 156px;
+}
+
+.footer-logo {
+    text-decoration: none;
+    margin-left: -4px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+}
+
+.footer-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.footer-text,
+.footer .logo-second {
+    color: #f4f4fd;
+}
+
+.footer .logo-first {
+   color: #4d5ae5;
+   position: relative;
+   right: -4px;
+}
